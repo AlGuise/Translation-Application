@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <script defer src="index.js"></script>
+        <title>World Translator</title>
+    </head>
+    <body>
+        <h1>Translations with Friends!</h1>
+        <div id="germanImages">
+            <figure>
+                <img id="germanPicture" src="https://cdn.countryflags.com/thumbs/germany/flag-square-250.png" alt="German Flag"/>
+                <figcaption id="germanFont">German</figcaption>
+            </figure>
+        </div>
+        <div id="spanishImages">
+            <figure>
+                <img id="spanishPicture" src="https://cdn.countryflags.com/thumbs/spain/flag-square-250.png" alt="Spanish Flag"/>
+                <figcaption id="spanishFont">Spanish</figcaption>
+            </figure>
+        </div>
+        <div id="frenchImages">
+            <figure>
+                <img id="frenchPicture" src="https://cdn.countryflags.com/thumbs/france/flag-square-250.png" alt="French Flag"/>
+                <figcaption id="frenchFont">French</figcaption>
+            </figure>
+        </div>
+        <h2>Type your text then select a Flag:</h2>
+        <div>
+            <form>
+                <p2 id="submitBox">
+                    <textarea type="text" id="nameInput"></textarea>
+                </p2>
+                <p2 id="returnBox">
+                <label id="inputLabel">Translation:</label>
+                <textarea readonly id="translatedText"></textarea>
+                </p2>
+            </form>
+        </div>
+    </body>
+</html>

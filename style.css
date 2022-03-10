@@ -1,0 +1,49 @@
+/* Css Code Goes Here*/
+body {
+    background-color: rgb(234, 241, 227);
+    text-align: center;
+}
+
+div {
+    display: inline-flex;
+    text-align: center;
+    width: 275px;
+}
+
+figure {
+    font-size: x-large;
+}
+
+textarea {
+    resize: none;
+    height: 50px;
+    width: 275px;
+    background-color: azure;
+}
+
+#germanPicture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(147, 180, 113);
+    /* border-style: solid;
+    border-color: rgb(147, 180, 113); */
+}
+
+#spanishPicture {
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: rgb(101, 101, 102);
+}
+
+#frenchPicture {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: rgb(223, 229, 160);
+}
+    
+#inputLabel {
+    font-weight: bolder;
+}
